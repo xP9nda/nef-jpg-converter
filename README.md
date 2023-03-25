@@ -2,7 +2,7 @@
 An easy to use program to convert .NEF files to .JPG files without losing any image quality
 
 ### How to use the program:
-- Download the release `.zip` from this page
+- Download the release `.zip` from the Releases section, or click [here](https://github.com/xP9nda/nef-jpg-converter/releases/tag/release)
 - Extract the `.zip` somewhere appropriate
 - Run the `converter.exe` file
 - A `converting` folder should be created, place `.NEF` files here
@@ -14,3 +14,7 @@ An easy to use program to convert .NEF files to .JPG files without losing any im
 ### For developers:
 - Open a terminal in the source code directory
 - Use `pip install -r requirements.txt` to download all requirements
+
+---
+
+Example `blackbird.NEF` image sourced from [here](http://www.luminescentphoto.com/nx2/nefs.html)
