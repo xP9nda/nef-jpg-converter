@@ -16,18 +16,21 @@ def checkFolderExists(folder):
 
 def convertNEF():
     filesConverted = 0
+    convertingPath = "converting/"
+    outputPath = "output/"
     
     # Get all content of the 'converting' folder
     convertingContent = os.listdir("converting")
+    
     for file in convertingContent:
         # If the file is not an NEF file
         if not file[-4:].lower() == ".nef":
             print("'{0}' is not a .NEF file.".format(file))
             continue
         
-        newFileName = file.strip(".nef") + ".jpg"
-        convertingPath = "converting/"
-        outputPath = "output/"
+        newFileName = file.strip(".nef")
+        newFileName = newFileName.strip(".NEF")
+        newFileName += ".jpg"
         
         # If a file with the same name exists already in the output folder
         if os.path.exists(outputPath + newFileName):
