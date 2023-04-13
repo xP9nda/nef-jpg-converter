@@ -2,7 +2,7 @@
 An easy to use program to convert .NEF files to .JPG files without losing any image quality
 
 ### How to use the program:
-- Download the release `nef-jpg-converter.zip` from the Releases section, or click [here](https://github.com/xP9nda/nef-jpg-converter/releases/tag/release)
+- Download the release `nef-jpg-converter.zip` from the Releases section, or click [here](https://github.com/xP9nda/nef-jpg-converter/releases)
 - Extract the `nef-jpg-converter.zip` somewhere appropriate
 - Run the `converter.exe` file
 - A `converting` folder should be created, place `.NEF` files here
